@@ -1,6 +1,7 @@
+import pandas as pd
 import streamlit as st
 from PIL import Image
-import pandas as pd
+
 st.set_page_config(
     page_title="Group 4: Datavisualization Presentation",
     page_icon="👋",
@@ -17,10 +18,6 @@ Walmart is the world's leading retail brand, known for its "Always Low Prices" s
 Hence, this is the reason why our group choose this topic.
 """
 )
-
-
-img = Image.open("C:/Local Code/Project/DataScienceProject/walmart-logo.jpg")
-st.image(img, width = 500)
 
 st.header("2. Overview about dataset")
 df = pd.read_csv("C:/Users/phath/Downloads/archive (61)/project1_df.csv")
@@ -40,4 +37,4 @@ st.write("Discount Amount (INR): The amount of discount availed by the customer.
 st.write("Gross Amount: The total amount before applying any discount.")
 st.write("Net Amount: The final amount after applying the discount.")
 st.write("Purchase Method: The payment method used (e.g., Credit Card, Debit Card, etc")
-st.write("Location: The city where the purchase took place.")
+st.write("Location: The city where the purchase took place.")st.write("Location: The city where the purchase took place.")
