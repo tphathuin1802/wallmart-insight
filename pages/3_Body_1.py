@@ -6,7 +6,8 @@ import streamlit as st
 st.title("Customer Demographic Analysis Insight")
 
 
-df = pd.read_csv("C:/Local Code/Project/DataScienceProject/appsprojects/streamlit_folder/wall_mart_india.csv")
+df = pd.read_csv("streamlit_folder/wall_mart_india.csv")
+
 
 prod_cat_sales = (
     df.groupby("Product Category")["Net Amount"].sum().reset_index()

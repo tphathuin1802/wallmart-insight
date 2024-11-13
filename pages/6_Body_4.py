@@ -8,7 +8,8 @@ from plotly.subplots import make_subplots
 st.title("4. Transaction Insights")
 
 
-df = pd.read_csv("C:/Local Code/Project/DataScienceProject/appsprojects/streamlit_folder/wall_mart_india.csv")
+df = pd.read_csv("streamlit_folder/wall_mart_india.csv")
+
 
 purchase_method_counts = df['Purchase Method'].value_counts()
 color_sequence = [
