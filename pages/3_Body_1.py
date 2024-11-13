@@ -6,7 +6,7 @@ import streamlit as st
 st.title("Customer Demographic Analysis Insight")
 
 
-url = "https://github.com/tphathuin1802/streamlit-python-web-app/blob/main/wall_mart_india.csv"
+url = "https://raw.githubusercontent.com/tphathuin1802/streamlit-python-web-app/refs/heads/main/wall_mart_india.csv"
 df = pd.read_csv(url)
 
 

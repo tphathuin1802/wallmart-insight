@@ -8,7 +8,7 @@ from plotly.subplots import make_subplots
 st.title("3. Discount Utilization Analysis ")
 
 # Load the data
-url = "https://github.com/tphathuin1802/streamlit-python-web-app/blob/main/wall_mart_india.csv"
+url = "https://raw.githubusercontent.com/tphathuin1802/streamlit-python-web-app/refs/heads/main/wall_mart_india.csv"
 df = pd.read_csv(url)
 
 
