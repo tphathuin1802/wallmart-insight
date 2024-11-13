@@ -20,7 +20,8 @@ Hence, this is the reason why our group choose this topic.
 """
 )
 st.header("2. Overview about dataset")
-df = pd.read_csv("C:/Local Code/Project/DataScienceProject/appsprojects/streamlit_folder/wall_mart_india.csv")
+url = "https://github.com/tphathuin1802/streamlit-python-web-app/blob/main/wall_mart_india.csv"
+df = pd.read_csv(url)
 
 st.dataframe(df)
 st.write("This dataset contains 14 field of data")

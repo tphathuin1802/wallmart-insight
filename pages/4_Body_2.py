@@ -6,7 +6,8 @@ import streamlit as st
 st.title("Product insight")
 
 
-df = pd.read_csv("streamlit_folder/wall_mart_india.csv")
+url = "https://github.com/tphathuin1802/streamlit-python-web-app/blob/main/wall_mart_india.csv"
+df = pd.read_csv(url)
 
 
 import pandas as pd

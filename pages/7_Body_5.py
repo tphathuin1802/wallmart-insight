@@ -7,9 +7,8 @@ st.title("5. Location-Based Sales Analysis")
 import pandas as pd
 import plotly.graph_objects as go
 
-df = pd.read_csv("streamlit_folder/wall_mart_india.csv")
-
-
+url = "https://github.com/tphathuin1802/streamlit-python-web-app/blob/main/wall_mart_india.csv"
+df = pd.read_csv(url)
 # Group and sort data
 location_sales = df.groupby("Location")["Net Amount"].sum().reset_index()
 location_sales = location_sales.sort_values(by="Net Amount", ascending=True)
