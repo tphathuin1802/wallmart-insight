@@ -6,7 +6,7 @@ import streamlit as st
 st.title("Product insight")
 
 
-df = pd.read_csv("C:/Users/phath/Downloads/archive (61)/project1_df.csv")
+df = pd.read_csv("C:/Local Code/Project/DataScienceProject/appsprojects/streamlit_folder/wall_mart_india.csv")
 
 import pandas as pd
 import plotly.graph_objects as go

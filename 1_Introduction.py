@@ -20,7 +20,7 @@ Hence, this is the reason why our group choose this topic.
 """
 )
 st.header("2. Overview about dataset")
-df = pd.read_csv("C:/Users/phath/Downloads/archive (61)/project1_df.csv")
+df = pd.read_csv("C:/Local Code/Project/DataScienceProject/appsprojects/streamlit_folder/wall_mart_india.csv")
 
 st.dataframe(df)
 st.write("This dataset contains 14 field of data")
