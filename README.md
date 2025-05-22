@@ -2,6 +2,10 @@
 
 Wallmart-Insight is a data analysis project that explores Walmart sales data to uncover trends and provide actionable business insights. It uses Python with libraries like Pandas, Matplotlib, and Seaborn to create visualizations and interactive dashboards.
 
+## Preview
+
+![image](https://github.com/user-attachments/assets/1a359412-ddd0-44ec-951d-7c4712b8a0d3)
+
 ## Objectives
 
 - Analyze Walmart sales data to identify key trends and patterns.
