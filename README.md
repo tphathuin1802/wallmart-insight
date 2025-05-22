@@ -1,56 +1,40 @@
-# Wallmart-Insight
+# Frontend-Portfolio
 
 ## Overview
 
-Wallmart-Insight is a data analysis project that explores Walmart sales data to uncover trends and provide actionable business insights. It uses Python with libraries like Pandas, Matplotlib, and Seaborn to create visualizations and interactive dashboards.
+Frontend-Portfolio is a personal portfolio website showcasing my skills, projects, and experience as a Frontend Developer. Built with **React**, this project features a responsive, interactive, and visually appealing interface to highlight my work and expertise in frontend development.
 
 ## Objectives
 
-- Analyze Walmart sales data to identify key trends and patterns.
-- Generate visualizations (e.g., bar charts, line charts) to highlight critical metrics.
-- Build a dashboard summarizing essential sales performance indicators.
+- Display my frontend development skills and professional background.
+- Showcase a collection of projects with descriptions, technologies used, and links to live demos or repositories.
+- Provide an engaging user experience with smooth animations and a responsive design.
+- Offer easy access to my contact information for collaboration or inquiries.
 
 ## Technologies Used
 
-- **Programming Language**: Python
-- **Libraries**:
-  - Pandas: For data processing and analysis
-  - Matplotlib: For data visualization
-  - Seaborn: For statistical visualizations
-- **Environment**: Jupyter Notebook, Python 3.x
+- **Frontend**:
+  - React.js
+  - JavaScript (ES6+)
+  - HTML5
+  - CSS3 (with Styled Components or Tailwind CSS, if applicable)
+- **Tools & Libraries**:
+  - Vite / Create React App (depending on your setup)
+  - React Router (for navigation, if used)
+  - Framer Motion (for animations, if used)
+- **Deployment**:
+  - GitHub Pages / Vercel / Netlify (adjust based on your deployment platform)
+- **Version Control**:
+  - Git & GitHub
 
 ## Installation
 
 - Clone the repository:
-
   ```bash
-  git clone https://github.com/tphathuin1802/wallmart-insight.git
-  cd wallmart-insight
+  git clone https://github.com/tphathuin1802/frontend-portfolio.git
+  cd frontend-portfolio
 
-- Set up the virtual enviroment:
-   ```bash
-  python -m venv venv
-  source venv/bin/activate  # On Windows: venv\Scripts\activate
-  pip install -r requirements.txt
 
-## Prepare the data:
-Place the data file (e.g., walmart_sales.csv) in the project root directory.
+## Preview
 
-## Usage
-
-Open the main Jupyter Notebook (Wallmart_Insight.ipynb) in your virtual environment.
-Run the cells sequentially to:
-Load and process the sales data.
-Generate visualizations and dashboards.
-Explore the output charts and dashboards to gain insights into sales performance.
-
-## Contributing
-
-Contributions are welcome! To contribute:
-Fork the repository.
-Create a new branch for your changes.
-Submit a pull request with clear documentation of your updates.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+![Uploading image.png…]()
